@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    
 }
 
 p {
@@ -16,46 +16,49 @@ p {
     width: 300px;
 }
 
-input {
-    margin-top: 20px;
-    position: relative;
-    transform: translate(0%, 80%);
-}
+
 
 #boxlogin {
     border: 1px solid rgba(126, 125, 125, 0.562);
-    height: 496px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.237);
+
+    height: 315px;
     width: 396px;
     position: relative;
     top: 50%;
     left: 50%;
-
-    transform: translate(6%, -101%);
+    transform: translate(27%, -20%);
 
 }
 
 #boxemail > input {
     width: 364px;
     height: 54px;
-    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 3%;
     
-    left: 4%;
 }
 
 #boxsenha > input {
+    
     width: 364px;
     height: 54px;
-    position: relative;
-    
-    left: 4%;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    margin-top: 10px;
 }
 
 #boxentrar > input {
     width: 134px;
     height: 48px;
-    position: relative;
-    left: 35%;
-    transform: translate(-10%, 100%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%, 0%);
 
     background-color: #1877f2;
     border-radius: 5px;
@@ -63,4 +66,12 @@ input {
     font-weight: bolder;
     
 
+}
+
+#iemail:hover {
+    border:1px solid #1877f2;
+}
+
+#isenha:hover {
+    border:1px solid #1877f2;
 }
