@@ -5,15 +5,24 @@
     padding: 0;
 }
 
-main {
-    background-color: darkgrey;
-    height: 100vh;
+:root {
+    --white: #fff;
+    --whitesmoke: #f0f0f0;
+    
 }
 
 .login-page {
-    background-color: brown;
-    width: 500px;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+}
+
+.login_logo {
+    width: 130px;
+    margin-bottom: 80px;
 }
 
 
