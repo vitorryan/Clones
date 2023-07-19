@@ -8,7 +8,13 @@
 :root {
     --white: #fff;
     --whitesmoke: #f0f0f0;
-    
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1B77F2;
+    --red: #CF3C3F;
 }
 
 .login-page {
