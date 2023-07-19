@@ -11,21 +11,23 @@
     <main>
 
         <section class="login-page">
-            <img  src="src/img/logo.png" alt="logo" class="login_logo">
-            <!-- 
+
+            <div class="wrapper">
+                <img  src="src/img/logo.png" alt="logo" class="login_logo">
+
                 <label class="login_label">
-                    <span>Username</span>
+                    <span class="span-active">Username</span>
                     <input type="text" name="Username" class="input">
                 </label>
 
                 <label class="login_label">
-                    <span>Password</span>
+                    <span class="span-active">Password</span>
                     <input type="password" name="password" class="input" >
                 </label>
 
             
             <div class="login_icons">
-                <button type="button" class="icon_button">
+                <button type="button" class="icon_button" style="background-color: blue;">
                     <img src="src/img/facebook-icon.png" alt="facebook">
                 </button>
 
@@ -33,25 +35,31 @@
                     <img src="src/img/google-icon.png" alt="google">
                 </button>
 
-                <button type="button" class="icon_button">
+                <button type="button" class="icon_button" style="background-color: black;">
                     <img src="src/img/apple-icon.png" alt="apple">
                 </button>
             </div>
-            
+
             <label class="login_label-checkbox">
                 <input type="checkbox" class="input-checkbox"> Manter login
             </label>
 
-            <button type="button" class="login-button"></button>
+            </div>
 
-            <a href="#" class="login-link">Não consegue iniciar sessão?</a>
-            <a href="#" class="login-link">Criar conta</a>
+            <div class="wrapper">
+                <button type="button" class="login-button" disabled>
+                
+                </button>
+    
+                <a href="#" class="login-link">Não consegue iniciar sessão?</a>
+                <a href="#" class="login-link">Criar conta</a>
+            </div>
+
 
         </section>
 
         <section class="wallpaper"> 
-            <img src="src/img/wallpaper.jpg" alt="wallpaper">
-        </section> -->
+        </section>
     </main>
 
 </body>
